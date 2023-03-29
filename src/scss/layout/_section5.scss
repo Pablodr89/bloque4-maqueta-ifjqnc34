@@ -1,0 +1,42 @@
+@use 'base/variables' as v;
+
+.cajaSection5 {
+    width: 60rem;
+    background-color: v.$naranjaClaro;
+    padding: 10rem;
+    
+    img {
+        width: 4rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+        margin-left: 3rem;
+        margin-top: -4rem;
+        line-height: 1.5;
+    }
+
+    p {
+        margin-left: 3rem;
+    }
+
+    .imagen {
+        margin-left: 37rem;
+        margin-top: -7rem;
+    }
+}
+
+.cajaTeam {
+    padding: 15rem 4rem 10rem;
+    display: flex;
+    gap: 2rem;
+    width: 100rem;
+
+    h4 {
+        color: v.$negroClaro;
+    }
+
+    img {
+        width: 70rem;
+    }
+}

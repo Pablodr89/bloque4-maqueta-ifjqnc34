@@ -1,0 +1,51 @@
+@use 'base/variables' as v;
+
+.cajaSection6 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+    margin-top: 10rem;
+
+    .puntuacion {
+        width: 60rem;
+    }
+}
+
+.opiniones {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding-bottom: 3rem;
+    overflow-x: scroll;
+    width: 250rem;
+
+    .card {
+        border-radius: 5rem;
+        text-align: center;
+        padding: 1rem 1rem 0;
+        height: 35rem;
+
+        .cardBox {
+            width: 25rem;
+        }
+        
+        h4 {
+            margin-bottom: 4rem;
+        }
+
+        .stars {
+            display: flex;
+            width: 10rem;
+            margin-left: 7.5rem;
+        }
+    }
+}
+
+.mensaje {
+    text-align: center;
+    margin: 5rem 0;
+
+    p {
+        margin-bottom: 5rem;
+    }
+}

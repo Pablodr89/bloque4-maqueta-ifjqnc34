@@ -1,0 +1,37 @@
+@use 'base/variables' as v;
+
+.cajas {
+    display: flex;
+    height: 35rem;
+    margin-bottom: 10rem;
+    margin-top: 3rem;
+
+    img {
+        width: auto;
+    }
+
+    .caja1 {
+        background-color: v.$naranjaClaro;
+        padding: 2rem 4rem;
+    }
+
+    .numero {
+        font-size: 6rem;
+        color: v.$naranjaOscuro;
+        display: flex;
+        justify-content: end;
+    }
+
+    .caja2{
+        background-color: v.$naranjaOscuro;
+        padding: 2rem 4rem;
+        width: 120rem;
+    }
+
+    .numero2 {
+        font-size: 6rem;
+        color: v.$naranjaClaro;
+        display: flex;
+        justify-content: end;
+    }
+}

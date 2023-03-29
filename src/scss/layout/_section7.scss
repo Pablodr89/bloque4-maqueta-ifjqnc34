@@ -1,0 +1,16 @@
+.fondo {
+    background-image: url("https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Fd75%2Ff1663167386474x814893465992409000%2FBanner-VITAMINEK2.jpg?w=2048&h=&auto=compress&dpr=2&fit=max");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+}
+
+.cajaSection7 {
+    display: flex;
+    justify-content: space-between;
+
+    .vacio {
+        padding-right: 75rem;
+    }
+}

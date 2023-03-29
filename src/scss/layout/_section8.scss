@@ -1,0 +1,24 @@
+@use 'base/variables' as v;
+
+.columna {
+
+    img {
+        width: 6rem;
+    }
+
+    p, ul {
+        padding-left: 0;
+        color: v.$blanco;
+    }
+
+    li {
+        margin-bottom: 1rem;
+        display: flex;
+        gap: 1rem;
+
+        img {
+            width: 2rem;
+            padding-bottom: 3rem;
+        }
+    }
+}

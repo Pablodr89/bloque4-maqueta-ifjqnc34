@@ -1,0 +1,14 @@
+@use 'base/variables' as v;
+
+.btn {
+    background-color: v.$naranja;
+    padding: 1rem 4rem;
+    border: 1px solid v.$naranja;
+    border-radius: 2rem;
+    color: v.$blanco;
+    text-align: center;
+
+    &:hover {
+        background-color: v.$naranjaOscuro;
+    }
+}

@@ -1,0 +1,61 @@
+@use 'base/variables' as v;
+
+footer {
+    .footerBox {
+        display: flex;
+        flex-direction: column;
+    }
+    .columnas {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        ul {
+            padding-left: 0;
+        }
+
+        a {
+            line-height: 2;
+            color: v.$negro;
+        }
+
+        .logoSimp {
+            width: 6rem;
+        }
+    }
+
+    .socialMedia {
+        display: flex;
+        gap: 2rem;
+        width: 13rem;
+        margin-bottom: 1rem;
+    }
+
+    .banderas {
+        display: flex;
+        gap: 1.5rem;
+        width: 20rem;
+    }
+
+    .pagos {
+        width: 20rem;
+    }
+
+    h5 {
+        text-transform: uppercase;
+    }
+        
+    .mensaje {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        p {
+            color: v.$negroClaro;
+        }
+
+        .recomendacion {
+            border: 1px solid v.$negroClaro;
+            padding: 3rem;
+        }
+    }
+}

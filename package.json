@@ -1,0 +1,21 @@
+{
+  "name": "bloque4-maqueta",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp, SASS y HTML, replicar web",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Pablo Dominguez Romero",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.60.0"
+  }
+}
