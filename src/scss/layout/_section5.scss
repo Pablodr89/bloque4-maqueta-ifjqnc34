@@ -29,8 +29,9 @@
 .cajaTeam {
     padding: 15rem 4rem 10rem;
     display: flex;
+    justify-content: space-between;
     gap: 2rem;
-    width: 100rem;
+    overflow-x: scroll;
 
     h4 {
         color: v.$negroClaro;
